@@ -1,0 +1,121 @@
+@media screen and (max-width:760px){
+    body{
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    header{
+        flex-direction: column;
+        border-radius: 0;
+        padding-top: 5px;
+        padding-left: 0px;
+    }
+    
+    ul {
+        text-align: center;
+    }
+
+    li{
+        margin: 10px;
+    }
+    
+    main{
+        text-align: center;
+        flex-direction: column;
+    }
+
+    aside{
+        margin-top: 10px;
+    }
+
+    h2{
+        font-size: 38px;
+        margin-bottom: -5px;
+    }
+    
+    p{
+        margin-top: 5px;
+    }
+
+    form{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .container-fluid{
+        margin-top: 20px;
+        width: 400px;
+        padding: 0;
+    }
+    
+    #mainSlider .carousel-inner, #mainSlider .carousel-item{
+        height: 50vh;
+    }
+
+    input[type="submit"]{
+        align-self: center;   
+    }
+
+    img{
+        display: none;
+    }
+
+    /* Classes em Referencia a pag Historia */
+
+    .p-historia {
+        padding: 0 10px;
+        text-align: justify;
+    }
+
+    .squad-moto img {
+        display: block;
+        width: 450px;
+    }
+
+    /* Classes em referencia a pag Cortes de Giro */
+
+    .main-videos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .squad-title {
+        margin-top: -8%;
+    }
+
+    .frame{
+        margin-top: 5px;
+        margin-left: 5px;
+        width: 200px;
+        height: 140px;
+    }
+
+    /* Classes em referencia a pag Contato */
+    .main-contato {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 150vh;
+    } 
+    
+    #form{
+      width: 450px;
+    }
+
+    textarea{
+      height: 120px;
+    }
+
+    .wrap_contact {
+        margin: 0 ;
+    }
+    
+    /* Classes em referencia a pag Contato */
+
+    #social-container img {
+         display: inline-block; 
+    }
+
+}

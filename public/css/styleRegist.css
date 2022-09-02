@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Hepta+Slab:400,700|Lato:400,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    font-size: 3.2em;
+    font-weight: 900;
+    font-style: italic;
+    color:darkorange;
+    text-shadow: 5px 0px 5px #000;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family:'Lato', Helvetica, Arial;  
+} 
+
+.container{
+    width: 50vw;
+}
+
+#form_registration{
+    width: 500px;
+    padding: 20px;
+    background-color: rgb(128, 48, 175);
+    display: flex;
+    border-radius: 15px;
+    flex-direction: column;
+}
+
+label{
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: #3b3b3b;
+    font-size: 17px; 
+}
